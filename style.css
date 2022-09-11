@@ -304,7 +304,20 @@ ul {
     html {
         font-size: 12px !important;
     }
+
     .footer {
-        padding-left: 16%;
+        padding-left: 0%;
+    }
+
+    .footer-col .social-links {
+        padding-left: 55%;
+    }
+
+    .profiles {
+        padding-left: 33%;
+    }
+
+    .fa-brands {
+        font-size: 17px;
     }
 }
