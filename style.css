@@ -5,7 +5,7 @@ body {
 .first-page {
     background-image: url('10881763.jpg');
     background-repeat: no-repeat;
-    background-position: :center;
+    background-position: center;
     background-size: cover;
     min-height: 100vh;
 }
@@ -219,6 +219,7 @@ hr {
 
 .contact-page {
     max-width: 1170px;
+    font-size: 2em;
     margin: auto;
     color: white;
 }
@@ -246,7 +247,6 @@ ul {
 }
 
 .footer-col h4 {
-    font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
     margin-bottom: 35px;
@@ -270,7 +270,6 @@ ul {
 }
 
 .footer-col ul li a {
-    font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
@@ -286,25 +285,24 @@ ul {
 }
 
 .footer {
-    padding-left: 20%;
+    padding-left: 16%;
 }
 
-.contact_wrapper @media(max-width:767px) {
+@media(max-width:767px) {
 
-    body,
     html {
-        font-size: 8px;
+        font-size: 10px !important;
     }
 
-    .section-subtitle {
-        max-width: 80%;
+    .footer-col {
+        width: 25%;
+        margin-bottom: 30px;
     }
 }
 
-@media(max-width:590px) {
+@media(max-width:574px) {
 
-    body,
     html {
-        font-size: 7px;
+        font-size: 12px !important;
     }
 }
