@@ -304,4 +304,7 @@ ul {
     html {
         font-size: 12px !important;
     }
+    .footer {
+        padding-left: 16%;
+    }
 }
